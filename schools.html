@@ -1,0 +1,415 @@
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="ZeroDays, Schools, CTF, Security, cyber, cyber-schools, Ireland"/>
+    <meta name="description" content="Zero Days security with host the annual Cyber-Schools Ireland security challenge at the Croke Park, Dublin, April 1st 2024. ">
+    <meta name="author" content="ZeroDays Security">
+
+    <title>Zero Days | Schools CTF</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#000000">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,300i,400,700" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <!-- Pretty Photo -->
+    <link rel="stylesheet" href="css/prettyPhoto.css"/>
+
+    <!-- Flickity -->
+    <link rel="stylesheet" href="css/flickity.css"/>
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="css/animate.css"/>
+
+    <!-- Skills bar -->
+    <link rel="stylesheet" href="css/skills-bar.css"/>
+
+    <!-- custom.css - the styling for this template -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizr -->
+    <script src="js/modernizr-custom.js"></script>
+
+</head>
+
+<body>
+
+<!-- status spinner showing while loading the page -->
+<div id="preloader"></div>
+
+<!-- HEADER -->
+<header>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top navbar-inverse">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/Schools_white_md.png" alt="CyberSchools"/></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-0 ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://zerodays.ie">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.eventbrite.ie/e/zero-days-cyber-schools-2024-team-of-up-to-4-school-students-u18-tickets-813530641047">Enter Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeline">Timeline of Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/faq.html">FAQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#venue">Venue</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- HEADER END -->
+
+<div id="content-wrap">
+
+    <!-- Homepage AREA -->
+    <div class="jumbotron" id="#home" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
+        <canvas id="effect-js"></canvas>
+        <div id="particles-js"></div>
+        <div id="bg-video-wrap">
+            <video id="bg-video" playsinline autoplay muted loop>
+            </video>
+        </div>
+        <div class="container">
+            <h1>Cyber Schools Ireland</h1>
+            <span class="typed"></span>
+            <div class="typed-wrap"></div>
+	    </div>
+    </div>
+    <!-- HERO AREA END -->
+
+    <!-- bouncing arrow -->
+    <div class="arrow-wrap">
+        <a href="#about" class="arrow down-bounce scroll-link fa fa-angle-double-down"></a>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <br/><br/>
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                    <div class="photo-wrap">
+                        <img src="img/schools.png" class="photo" alt=""/>
+                        <div class="photo-overlay">
+                            <div class="photo-text social">
+                                <a href="https://twitter.com/zerodaysctf"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/zerodaysctf/"><i class="fa fa-instagram"></i></a>
+                                <a href="https://www.youtube.com/channel/UCbecTl3icMsNsbFdhq3501Q/videos"><i class="fa fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <br/><br/>
+                    <h2>
+                        <a href="faq.html">check out our FAQs for more details</a> 
+                    </h2>
+                    <div class="photo-wrap">
+                        <p>This event is part-funded through the SFI Discover Programme.</p>
+                        <img src="img/sfi.png" class="photo" alt=""/>
+                        
+                    </div>
+                </div>
+                <div id="aboutRight" class="col-lg-6 col-12">
+                    <div>
+                        <h1>Cyber-Schools</h1>
+                        <h2>Security Challenge</h2>
+                    </div>
+                    <div>
+                        <p>
+                            The annual Irish Cyber-Schools Security Challenge organised by Zero Days Security, 
+                            aims to highlight the cyber-security industry as an exciting and accessible career 
+                            pathway. The focus of the event is on fun and inclusiveness and we encourage 
+                            everyone to come and experience this unique and challenging opportunity.                         </p>
+                        <p>
+                            You don't need to be a leet hacker to take part and enjoy the day, as the event 
+                            will cater for all skill levels. So if you already enjoy, or you would like to try, 
+                            any of the activities listed below then the Irish Cyber-Schools Security Challenge 
+                            is for you.
+                        </p>
+
+                        <ul>
+                            <li>Solving Challenges, Coming up with creative solutions</li>
+                            <li>Lock Picking, Puzzles, Quizzes , Escape Rooms</li>
+                            <li>Scripting / Coding</li>
+                            <li>Web hacking, Security, Bug Bounties,</li>
+                            <li>or you just like having fun and trying new things</li>
+                        </ul> 
+                        
+                        <p>
+                            Students will compete in teams (Max 4 students per team) to try solve over 30 cyber-security 
+                            related challenges, with plenty of tasks and activities to keep teams of all 
+                            abilities entertained on the day. So why not convince some friends to form a 
+                            team and sign up today. All teams/schools that register will be offered a mentor 
+                            to help them prepare and train for their first Capture the Flag (CTF) 
+                            Cyber-Schools challenge.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT END -->
+      <!-- TIMELINE -->
+    <section id="timeline">
+        <br/><br/>
+        <div class="section-header">
+            <div>
+                <h2>Timeline of Events</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div class="timeline-block timeline-block-right">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                    <h3>Entries Open</h3>
+                    <span>Saturday, March 23rd 2024</span>
+                    <p>Online entries open for our first annual Cyber-Schools Security Challenge.</p> <a href="https://www.eventbrite.ie/e/zero-days-cyber-schools-2024-team-of-up-to-4-school-students-u18-tickets-813530641047">Enter your team today</a> 
+                </div>
+            </div>
+            <div class="timeline-block timeline-block-left">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                    <h3>Training</h3>
+                    <span>Feb - March 2024</span>
+                    <p>Teams who want, will be offered mentoring and access to online training challenges for their team. </p>
+                </div>
+            </div>
+            <div class="timeline-block timeline-block-right">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                    <h3>Cyber-Schools Event</h3>
+                    <span>23rd March 2024 ( Croke Park, Dublin)</span>
+                    <p>Day of the event. Teams will complete to solve challenges and become the first Irish cyber-Schools Winners.</p>
+                </div>
+            </div>
+            <div class="timeline-block timeline-block-left">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                    <h3>ECSC Qualifiers</h3>
+                    <span>June 2024</span>
+                    <p>Individuals who do perform well during the Cyber-Schools event will be invited to try out for 
+                        the Irish team for the European Cyber Security Challenge (ECSC)</p>
+                </div>
+            </div>
+            <div class="timeline-block timeline-block-right">
+                <div class="marker"></div>
+                <div class="timeline-content">
+                    <h3>ECSC Finals</h3>
+                    <span>October 2024</span>
+                    <p>Irish Team will compete at the ECSC in Norway</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- TimeLine END -->
+
+    <!-- CHALLS -->
+    <section id="challs">
+        <br/><br/>
+        <div class="section-header">
+            <div>
+                <h2>Challenge Topics</h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <p>Teams will have over 30 security related challenges to try and solve on the day. 
+                Successfully completing a challenge earns the team points, and the team finishing with the most points will be the winners.</p>
+                
+                <p>Challenges will each be of varying difficulty and spread across several categories. 
+                    To help teams prepare we've included the main challenge categories.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4 item">
+                    <h4><i class="fa fa-question"></i> Trivia</h4> 
+                    <p>
+                        Can your team find the answers to our Computing/Security/Hacker based trivia questions?
+                    </p>
+                    
+                </div>
+                <div class="col-12 col-lg-4 item">
+                    <h4><i class="fa fa-puzzle-piece"></i> Puzzles & Logic</h4> 
+                    <p>
+                        Good team work and communication required to try figure out our logic puzzles and games.
+                    </p>
+                   
+                </div>
+                <div class="col-12 col-lg-4 item">
+                    <h4><i class="fa fa-code" aria-hidden="true"></i> Coding</h4> 
+                    <p>
+                        Can you write some short scripts to help you automate your attack? or understand our code enough to exploit it?
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4 item">
+                    <h4><i class="fa fa-search"></i> Forensics</h4> 
+                    <p>
+                        Find the stuff that's meant to be hidden or deleted. Look deeper to find the clues.
+                    </p>
+                    
+                </div>
+                <div class="col-12 col-lg-4 item">
+                    <h4><i class="fa fa-cloud"></i> Web Apps</h4> 
+                    <p>
+                        Who doesn't like a good Website to try hack and login to.
+                    </p>
+                   
+                </div>
+                <div class="col-12 col-lg-4 item">
+                    <h4><i class="fa  fa-unlock"></i> Crypto & Ciphers</h4> 
+                    <p>
+                        Can you decrypt our secret messages?  From classic ciphers to latest state of the art cryptography we want you to break it all. 
+                    </p>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4 item">
+                    <h4><i class="fa fa-handshake-o"></i> Hands-On</h4> 
+                    <p>
+                        Challenges to get your team up out of their seats. Games, lock picking, treasure hunts and anything else we come up with.
+                    </p>
+                    
+                </div>
+                <div class="col-12 col-lg-4 item">
+                    <h4><i class="fa fa-binoculars"></i> Recon</h4> 
+                    <p>
+                        Can you use the clues, reconnaissance, images and social media accounts to find the details needed? 
+                    </p>
+                   
+                </div>
+                <div class="col-12 col-lg-4 item">
+                    <h4><i class="fa fa-cogs"></i> Pot Luck</h4> 
+                    <p>
+                        A random mix and combination of everything that doesn't fit nicely into any of the other categories.
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CHALLS END -->
+
+</div>
+
+<div id="footer-wrap">
+
+    <!-- CONTACT INFO  -->
+    <div id="venue">
+        <br/><br/>
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2>Venue</h2>
+                    <p>
+                        Dublin's Croke Park will be the impressive venue for the annual Cyber-Schools security challenge. 
+                        Three categories will run in parallel with the annual Colleges, cyber-schols and Open industry sections all competing at the Zero Days CTF event. With a limited number of teams, &#8364;1000's in prizes and 
+                        an array of fun, challenging activities planned for the day, make sure to grab your ticket today. </p>    
+                 </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-12" id="googleMap"></div>
+            </div>
+            <div class="row withMap">
+                <div class="col-12 col-md-6">
+                    <ul>
+                        <li>When: Saturday 23rd March, 2024</li>
+                        <li>Where:  Croke Park, Dublin</li>
+                        <li>Costs: Free</li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div>
+                        <i class="fa fa-map-marker"> </i> Croke Park, Dublin
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"> </i>info@zerodays.ie
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT INFO END -->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <p>Copyright &copy; 2024 ZeroDays</p>
+                </div>
+                <div class="col-12 col-sm-6 social">
+                    <p class="pull-right">
+                        <a href="https://twitter.com/zerodaysctf"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/zerodaysctf/"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCbecTl3icMsNsbFdhq3501Q/videos"><i class="fa fa-youtube"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+</div>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery-migrate-3.0.0.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/flickity.pkgd.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/jquery.debouncedresize.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/typed.min.js"></script>
+<script src="js/skill.bars.jquery.js"></script>
+<script src="js/particles.min.js"></script>
+<script src="js/config1.js"></script>
+<script src="js/custom.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMYUCUdT1WkZJFkrpI4IzEObG8_YNcZPg&callback=myMap"></script>
+
+</body>
+</html>
