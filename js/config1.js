@@ -3,7 +3,7 @@
 /******************************************************************************************************************/
 
 /* Edit the array as you wish. It will contain the typed strings. */
-var config_typedArray = ["March 23rd, 2024,  Croke Park, Dublin", "Compete, Learn, Have Fun!", "Is Cyber-Security in your future?"];
+var config_typedArray = ["March 22nd, 2024,  Croke Park, Dublin", "Compete, Learn, Have Fun!", "Is Cyber-Security in your future?"];
 
 /* Disable Parallax effect on touch devices for performance reasons. */
 var config_disableParalaxOnTouchDevices = true;
