@@ -7,9 +7,7 @@
 /*  - HERO AREA                                                                                                   */
 /*  - ABOUT SECTION                                                                                               */
 /*  - HIRE ME SECTION                                                                                             */
-/*  - PORTFOLIO SECTION                                                                                           */
 /*  - TIMELINE SECTION                                                                                          */
-/*  - TESTINOMIALS SECTION                                                                                        */
 /*  - challs SECTION                                                                                                */
 /*  - CONTACT FORM                                                                                                */
 /*  - FOOTER                                                                                                      */
@@ -234,10 +232,6 @@ section li {
     100% {
         opacity: 1;
     }
-}
-
-.portfolio-link {
-    display: none;
 }
 
 /******************************************************************************************************************/
@@ -663,87 +657,6 @@ nav ul li {
 
 #hireme .btn {
 	margin-top: 4rem;
-}
-
-/******************************************************************************************************************/
-/** PORTFOLIO SECTION                                                                                             */
-/******************************************************************************************************************/
-
-#portfolio {
-    padding-bottom: 4rem;
-    border-radius: 0;
-}
-
-#portfolio .item {
-    padding: 0;
-    margin: 0;
-}
-
-#portfolio .magnifier {
-    background: rgba(255, 255, 255, 0.9) url(../img/magnifier.png) no-repeat center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 0;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
-#portfolio .magnifier:hover {
-    opacity: 0.8;
-}
-
-#portfolio .isotope,
-.isotope .item {
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
-    -ms-transition-duration: 0.8s;
-    -o-transition-duration: 0.8s;
-    transition-duration: 0.8s;
-}
-
-#portfolio .isotope {
-    -webkit-transition-property: height, width;
-    -moz-transition-property: height, width;
-    -ms-transition-property: height, width;
-    -o-transition-property: height, width;
-    transition-property: height, width;
-}
-
-#portfolio .isotope .item {
-    -webkit-transition-property: -webkit-transform, opacity;
-    -moz-transition-property: -moz-transform, opacity;
-    -ms-transition-property: -ms-transform, opacity;
-    -o-transition-property: top, left, opacity;
-    transition-property: transform, opacity;
-}
-
-#filters-group {
-    margin-bottom: 2rem;
-}
-
-#portfolio .filter {
-    padding: 0 1.5rem;
-    font-size: 1rem;
-    border-radius: 15px;
-    border: 0;
-    color: #999 !important;
-    cursor: pointer;
-    outline: 0;
-    display: inline-block;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-#portfolio .filter:hover, .portfolio .filter:active, .portfolio .filter:focus {
-    color: #333 !important;
-
 }
 
 /******************************************************************************************************************/

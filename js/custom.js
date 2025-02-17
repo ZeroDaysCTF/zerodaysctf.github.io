@@ -9,8 +9,6 @@
     var $window = $(window);
     var contentWrap = $("#content-wrap");
     var footerWrap = $("#footer-wrap");
-    var portfolio = $('#portfolio');
-    var portfolioItems = $('#portfolio-items', portfolio);
 
     var DAMPING = 0.9999;
     var GRAVITY = 0.15;
@@ -195,47 +193,6 @@
             fixSkillsWidth();
         });
 
-
-        /******************************************************************************************************************/
-        /** PRETTY PHOTO                                                                                                  */
-        /******************************************************************************************************************/
-        var prettyPhoto = $("a[data-rel^='prettyPhoto']", portfolio);
-        prettyPhoto.prettyPhoto({
-            animationSpeed: 'slow',
-            social_tools: false,
-            theme: 'light_square',
-            slideshow: false,
-            overlay_gallery: false,
-            deeplinking: false,
-            show_title: true
-        });
-
-
-        /******************************************************************************************************************/
-        /** ISOTOPE                                                                                                       */
-        /******************************************************************************************************************/
-
-        portfolioItems.imagesLoaded(function() {
-            portfolioItems.isotope({
-                itemSelector: '.item',
-                masonry: {
-                    columnWidth: '.item'
-                }
-            });
-        });
-
-        // bind filter button click
-        var filtersGroup = $('#filters-group', '#portfolio');
-        filtersGroup.on('click', function (e) {
-            if ($(e.target).is('a')) {
-                var $this = $(e.target);
-                var filterValue = $this.attr('data-filter');
-                // use filterFn if matches value
-                portfolioItems.isotope({filter: filterValue});
-            }
-            return false;
-        });
-
         /******************************************************************************************************************/
         /** CSS ANIMATION                                                                                                 */
         /******************************************************************************************************************/
@@ -256,25 +213,13 @@
     /******************************************************************************************************************/
     /** TYPED                                                                                                   */
     /******************************************************************************************************************/
-    var portfolioLink = $('.portfolio-link');
     document.addEventListener('DOMContentLoaded', function () {
         Typed.new('.typed', {
             strings: config_typedArray,
             typeSpeed: 0,
-			loop: true,
-            callback: function () {
-                portfolioLink.fadeTo(500, 1);
-            }
+			loop: true
         });
     });
-
-    /******************************************************************************************************************/
-    /** DEBOUNCED RESIZE                                                                                              */
-    /******************************************************************************************************************/
-    $window.on("debouncedresize", function (event) {
-        portfolioItems.isotope();
-    });
-
 
     /******************************************************************************************************************/
     /** HELPER FUNCTIONS                                                                                              */
